@@ -36,4 +36,4 @@ export const ButtonGreen = props => (
   <Button {...props} backgroundColor={"green"} />
 );
 export const ButtonRed = props => <Button {...props} backgroundColor={"red"} />;
-export const ButtonOutline = props => <Button {...props} outline />;
+export const ButtonOutline = props => <Button {...props} />;

@@ -1,10 +1,8 @@
 import React from "react";
 
-export const Box = props => <div {...props} width={"50px"} heigth={"50px"} />;
+export const Box = props => <div {...props} />;
 
-export const Grid = props => (
-  <Box {...props} display="inline-block" verticalAlign="top" px={2} />
-);
+export const Grid = props => <Box {...props} display="inline-block" px={2} />;
 
 export const Half = props => <Grid {...props} width={1 / 2} />;
 
