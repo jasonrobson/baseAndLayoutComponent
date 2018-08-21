@@ -29,6 +29,8 @@ export const Button = ({
   return <button {...props} style={styling} />;
 };
 
+// By adjusting the props API of the base Button component,
+// an entire set of button styles can be created.
 export const ButtonBig = props => <Button {...props} big />;
 export const ButtonGreen = props => (
   <Button {...props} backgroundColor={"green"} />
