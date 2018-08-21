@@ -1,2 +1,0 @@
-# baseAndLayoutComponent
-Created with CodeSandbox
